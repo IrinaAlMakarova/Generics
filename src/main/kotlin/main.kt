@@ -46,8 +46,6 @@ class NoteServiceImpls : NoteService {
     private var notes = mutableListOf<Note>()
     private var comments = mutableListOf<Comment>()
     private var commentsDelete = mutableListOf<Comment>()
-    private var commentsOnTheNotes = mutableListOf<Comment>()
-
 
     private var nId = 0
     private var cId = 0
